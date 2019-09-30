@@ -36,7 +36,7 @@ public class question_1 {
             }
         }
 
-        //2)расположим каждое слово в предложениях по длине слов..
+        //2)расположим каждое слово в предложениях по возрастанию в зависмости от длины каждого слова.
         public static void sortWordLength(String text) {
             String[] results = text.toLowerCase().split("([.!?]+)");
             for (String s : results) {
